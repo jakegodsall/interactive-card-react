@@ -1,14 +1,19 @@
 .bank-form {
-    width: 30%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .bank-form__row {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 
-.bank-form__row-final {
+.bank-form__row.final {
     display: flex;
     flex-direction: row;
 }
@@ -17,5 +22,22 @@
 .bank-form__col2  {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
+.bank-form__exp-date {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bank-form__label {
+    text-transform: uppercase;
+}
+
+.bank-form__input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: #888;
+}
