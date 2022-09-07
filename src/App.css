@@ -1,5 +1,8 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 18px;
+	color: hsl(278, 68%, 11%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
